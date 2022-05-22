@@ -99,12 +99,6 @@ for i,v in ipairs(game.Players:GetChildren()) do
     char = v.Character
     character1.Reanimate.FPart.Position = char.HumanoidRootPart.Position
     wait(.35)
-    char = v.Character
-    character1.Reanimate.FPart.Position = char.HumanoidRootPart.Position
-    wait(.35)
-    char = v.Character
-    character1.Reanimate.FPart.Position = char.HumanoidRootPart.Position
-    wait(.35)
 end  
 
 rmesh('Pink Hair')
